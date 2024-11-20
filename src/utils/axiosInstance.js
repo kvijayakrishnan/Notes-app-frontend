@@ -3,7 +3,7 @@ import { BASE_URL } from "./constant";
 
 // Create an Axios instance with default configuration
 const axiosInstance = axios.create({
-    baseURL: "http://localhost:8000",
+    baseURL: "https://notes-app-backend-9bww.onrender.com",
     timeout: 1000,
     headers: {
         "Content-Type": "application/json",
